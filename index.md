@@ -25,6 +25,7 @@ Esta etapa es justo después de la entrega continua, en la que tenemos la opció
 - Implementación de los artefactos en entornos de pre y pro.
 
 **Ejemplo 1**: implementación de los artefactos de una nueva versión de una aplicación web en el cloud de Azure.
+
 **Ejemplo 2**: registro y publicación de un contenedor docker con nuestra app web en un entorno de pre.
 
 ## ¿Qué es Jenkins?
@@ -34,20 +35,18 @@ Jenkins es una herramienta programada en Java que nos permite implementar:
 - Ciclos de Integración Continua (CI)
 - Ciclos de Entrega o Despliegue Continuo (CD).
 
-### Características
+### Infraestructura
+Jenkins se compone de la parte de servidor y de sus agentes esclavos, máquinas que pueden ser Windows, macOS o Linux y se encargan de realizar las compilaciones.
 
+![Jenkins Infraestrctura](https://i.ibb.co/k6WbLGD/jenkins-infraestrctura.png)
+
+### ¿Qué ventajas nos ofrece implementarlo?
 - Configuración web sencilla
 - Multitud de plugins
 - Extensible
 - Compilaciones distribuidas
 - Open Source
-
-
-### Infraestructura
-Jenkins se compone de la parte de servidor y de sus agentes esclavos, máquinas que pueden ser Windows, macOS o Linux y se encargan de realizar las compilaciones.
-![Jenkins Infraestrctura](https://i.ibb.co/k6WbLGD/jenkins-infraestrctura.png)
-
-### ¿Qué ventajas nos ofrece implementarlo?
+- Comunidad con experiencia
 - Automatización de tareas
     - Compilación
     - Tests
@@ -58,7 +57,6 @@ Jenkins se compone de la parte de servidor y de sus agentes esclavos, máquinas 
     - Código siempre compilable
     - Publicación de resultados de las pruebas
 - Plus de calidad en nuestras entregas
-- Comunidad con experiencia
 
 ### ¿Qué desventajas tiene?
 - Se necesita tiempo para montarlo todo
